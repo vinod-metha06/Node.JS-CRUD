@@ -5,7 +5,7 @@ var StudentModel = require('./studentschema');
 var router = express.Router();
 
 // Connecting to database
-var query = 'mongodb+srv://vinod:nodepass123$@cluster0.dagma.mongodb.net/College?retryWrites=true&w=majority'
+var query = '<your connection url>'
 
 const db = (query);
 mongoose.Promise = global.Promise;
